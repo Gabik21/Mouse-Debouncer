@@ -66,7 +66,7 @@ static void CDECL ShowErrorMessageBox(LPCWSTR message, ...);
 static MouseButton GetButtonByWParam(const WPARAM wParam, const PMSLLHOOKSTRUCT pdata);
 static LPCWSTR GetButtonName(const MouseButton button);
 
-static LPCWSTR APPNAME = L"Mouse Debouncer";
+static LPCWSTR APPNAME = L"PvPGym Debouncer";
 static LPCWSTR CLASSNAME = L"MouseDebouncerWndClass";
 
 static HHOOK msll_hook = NULL;
